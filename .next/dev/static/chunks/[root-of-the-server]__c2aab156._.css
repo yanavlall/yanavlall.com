@@ -1139,6 +1139,10 @@
     height: calc(var(--spacing) * 32);
   }
 
+  .h-40 {
+    height: calc(var(--spacing) * 40);
+  }
+
   .h-\[1\.15rem\] {
     height: 1.15rem;
   }
@@ -2008,8 +2012,16 @@
     fill: var(--primary);
   }
 
+  .object-contain {
+    object-fit: contain;
+  }
+
   .object-cover {
     object-fit: cover;
+  }
+
+  .object-top {
+    object-position: top;
   }
 
   .p-0 {
@@ -4581,6 +4593,12 @@
   @media (min-width: 48rem) {
     .md\:h-40 {
       height: calc(var(--spacing) * 40);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:h-52 {
+      height: calc(var(--spacing) * 52);
     }
   }
 
