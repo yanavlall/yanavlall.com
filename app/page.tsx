@@ -11,7 +11,7 @@ export default function Home() {
         <section className="flex flex-col md:flex-row gap-8 items-start mb-12">
         <div className="w-32 h-40 md:w-40 md:h-64 relative flex-shrink-0 rounded overflow-hidden bg-muted">
           <Image
-            src="/profile2.png"
+            src="/profile3.png"
             alt="Yanav Lall"
             fill
             className="object-cover object-top"
