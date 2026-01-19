@@ -113,25 +113,30 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$navigation$2e$
 ;
 const metadata = {
     title: "Yanav Lall",
-    description: "Stanford student studying Data Science and Computer Science (AI). Passionate about music and machine learning research.",
     generator: "v0.app",
     icons: {
         icon: [
             {
-                url: "/icon-light-32x32.png",
-                media: "(prefers-color-scheme: light)"
+                url: "/favicon.ico"
             },
             {
-                url: "/icon-dark-32x32.png",
-                media: "(prefers-color-scheme: dark)"
+                url: "/favicon-16x16.png",
+                sizes: "16x16",
+                type: "image/png"
             },
             {
-                url: "/icon.svg",
-                type: "image/svg+xml"
+                url: "/favicon-32x32.png",
+                sizes: "32x32",
+                type: "image/png"
             }
         ],
-        apple: "/apple-icon.png"
-    }
+        apple: [
+            {
+                url: "/apple-touch-icon.png"
+            }
+        ]
+    },
+    manifest: "/site.webmanifest"
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
@@ -141,7 +146,7 @@ function RootLayout({ children }) {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$navigation$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Navigation"], {}, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 50,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this),
                 children,
@@ -154,33 +159,33 @@ function RootLayout({ children }) {
                             children: "Copyright © 2026 Yanav Lall"
                         }, void 0, false, {
                             fileName: "[project]/app/layout.tsx",
-                            lineNumber: 56,
+                            lineNumber: 46,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
-                        lineNumber: 55,
+                        lineNumber: 45,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 54,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$analytics$2f$dist$2f$next$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Analytics"], {}, void 0, false, {
                     fileName: "[project]/app/layout.tsx",
-                    lineNumber: 62,
+                    lineNumber: 52,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/layout.tsx",
-            lineNumber: 49,
+            lineNumber: 39,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.tsx",
-        lineNumber: 48,
+        lineNumber: 38,
         columnNumber: 5
     }, this);
 }
