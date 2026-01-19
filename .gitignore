@@ -1,0 +1,4 @@
+.DS_Store
+# optional local files
+node_modules/
+dist/
