@@ -9,7 +9,7 @@ export default function Home() {
       <div className="max-w-2xl mx-auto px-6 py-12 md:py-20">
         {/* Header / Intro Section */}
         <section className="flex flex-col md:flex-row gap-8 items-start mb-12">
-        <div className="w-32 h-40 md:w-40 md:h-52 relative flex-shrink-0 rounded overflow-hidden bg-muted">
+        <div className="w-32 h-40 md:w-40 md:h-64 relative flex-shrink-0 rounded overflow-hidden bg-muted">
           <Image
             src="/profile.png"
             alt="Yanav Lall"
