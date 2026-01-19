@@ -2,5 +2,6 @@
   "/experience/page": "app/experience/page.js",
   "/music/page": "app/music/page.js",
   "/page": "app/page.js",
+  "/projects/page": "app/projects/page.js",
   "/publications/page": "app/publications/page.js"
 }
